@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+
+<script>
+     $(document).ready(function () {
+        $("#tr1").mouseenter(function () {
+		$(this).hide();
+	});
+     });
+
+</script> 
+
+</head> 
+
+
+<body>  
+<p  id="p1"> Строчечка С: </p>
+<table>
+<tr><td>Row with Index #0</td></tr>
+<tr id="tr1">
+	<td><img src="\\C:\\Users\\Public\\Pictures\\Sample Pictures\\Penguins.jpg" width="199" height="133"></td>
+</tr>
+<tr><td>Row with Index #1</td></tr>
+<tr><td>Row with Index #2</td></tr>
+</table>
+
+<br>
+<br>
+<button id="but1">Скрыть четные элементы</button>
+<button id="but2">Показать четные элементы</button>
+
+
+</body> 
+
+</html> 
