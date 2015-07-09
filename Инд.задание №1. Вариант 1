@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+
+<script>
+     $(document).ready(function () {
+         $("#but1").click(function () {
+		 $(".MsoNormal").hide();
+         });
+
+       $("#but2").click(function () {
+		 $(".MsoNormal").show();
+         });
+
+     });
+</script> 
+</head> 
+<body>  
+ 
+<p class="MsoNormal">1</p> 
+<p>2</p> 
+<p class="MsoNormal">3</p> 
+<p>4</p> 
+<p class="MsoNormal">5</p> 
+<p>6</p>
+
+<button id="but1">Скрыть нечетные элементы</button>
+<button id="but2">Показать нечетные элементы</button>
+
+</body> 
+</html> 
