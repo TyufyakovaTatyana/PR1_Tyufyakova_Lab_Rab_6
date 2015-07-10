@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+<script>
+	 		
+	$(document).ready(function () {
+		$("button").click(function () {
+		var i=1;
+		do{
+		$(".p2").fadeToggle();
+		i++;
+		if(i%2==0){
+			$(".p1").fadeToggle();}
+		}
+		while(i<1000)
+		$(".p1").hide();
+	
+		});
+});
+
+</script>
+</head>
+
+<body>
+
+<p class="p1"style="display:none">Я сразу смазал карту будня</p>
+<p class="p2" style="display:none">Плеснувши краску из стакана</p>
+<p class="p1"style="display:none">Я показал на блюде студня</p>
+<p class="p2" style="display:none">Косые скулы океана</p>
+<p class="p1"style="display:none">На чешуе жестяной рыбы</p>
+<p class="p2" style="display:none">Прочел я зовы новых губ</p>
+<p class="p1"style="display:none">А вы</p>
+<p class="p2" style="display:none">Ноктюрн сыграть</p>
+<p class="p1"style="display:none">Могли бы</p>
+<p class="p2" style="display:none">На флейте водосточных труб?</p>
+
+
+</body>
+
+<br><br>
+
+<button>Click me</button>
+
+
+</html>
